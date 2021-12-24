@@ -1,0 +1,9 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand img {
+    width: 7%;
+}
