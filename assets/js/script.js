@@ -6,7 +6,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 $(document).ready(function(){
     // Probando jQuery.
     $("#montana").click(function() {
-        alert("Hicisite click en la Montaña");
+        alert("Hiciste click en la Montaña");
     })
 
     // Smooth Scroll al clickear los links de la barra de navegación.
