@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: auto !important;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: black;
@@ -10,5 +14,12 @@ body {
 }
 
 .navbar {
-    background-color: rgba(20, 20, 20, 0);
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.scrolling {
+    background-color: rgba(13, 202, 240, 0.8);
 }
