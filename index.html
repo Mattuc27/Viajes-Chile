@@ -21,14 +21,14 @@
 </head>
 <body>
     <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg"> Viajes Chile</a>
+            <a class="navbar-brand w-50" href="#"><img src="assets/img/viajes.svg"> Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar1" aria-controls="Navbar1" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="Navbar1">
-                <div class="navbar-nav ms-5">
+                <div class="navbar-nav ms-auto">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     <a class="nav-link" href="#Nosotros">Nosotros</a>
                     <a class="nav-link" href="#Destacados">Destacados</a>
@@ -40,7 +40,7 @@
 
     <!-- Carrousel -->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner h-80">
+        <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
           </div>
@@ -62,9 +62,9 @@
       </div>
 
     <!-- Nosotros -->
-    <section class="container my-3" id="Nosotros">
+    <section class="container my-3 d-none d-md-block" id="Nosotros">
         <div class="text-center">
-            <h1 class="fw-bold">Quienes Somos</h1>
+            <h1 class="fw-bold pt-4">Quienes Somos</h1>
             <hr class="opacity-100 w-80 mx-auto text-info">
         </div>
         <div class="row">
@@ -85,6 +85,10 @@
 
     <!-- Destacados -->
     <section class="container my-5" id="Destacados">
+        <div>
+            <h1 class="fw-bold text-center pt-4">Destacado</h1>
+            <hr class="opacity-100 w-80 mx-auto text-info">
+        </div>
         <div class="row row-cols-1 row-cols-sm-4 g-4">
             <div class="col">
               <div class="card text-white bg-info mb-3 h-100">
@@ -126,12 +130,15 @@
     </section>
 
     <!-- Contacto -->
-    <section class="text-center" id="Contacto">
-        <div class="container">
-            <h1 class="fw-bold">Contacto</h1>
-            <hr class="opacity-100 w-80 mx-auto text-info">
+    <section class="container-fluid text-center py-4" id="Contacto">
+        <div class="container my-5">
+            <h1 class="fw-bold text-white">Contacto</h1>
+            <hr class="opacity-100 w-25 mx-auto text-info">
         </div>
-        <div><<div data-tf-widget="bHn4s4AY" data-tf-hide-headers data-tf-iframe-props="title=Contacto Viajes Chile" style="width:100%;height:80%;"></div><script src="//embed.typeform.com/next/embed.js"></script></div>
+        <div class="pb-5 mb-5">
+            <p class="fs-3">¿Deseas comentarnos algo?</p>
+            <a target="_blank" href="https://34r9cwl8hji.typeform.com/to/bHn4s4AY"><button class="btn bg-info text-white">Comienza aquí</button></a>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -142,10 +149,10 @@
                     <p class="fs-2">VIAJES CHILE</p>
                 </div>
                 <div class="col-12 col-sm-6">
-                    <a class="text-white" href="#"><i class="fab fa-github-square fa-3x mx-2"></i></a>
-                    <a class="text-white" href="#"><i class="fab fa-linkedin fa-3x mx-2"></i></a>
-                    <a class="text-white" href="#"><i class="fab fa-twitter-square fa-3x mx-2"></i></a>
-                    <a class="text-white" href="#"><i class="fab fa-facebook-square fa-3x mx-2"></i></a>
+                    <a class="text-white" target="_blank" href="https://github.com/Mattuc27/"><i class="fab fa-github-square fa-3x mx-2"></i></a>
+                    <a class="text-white" target="_blank" href="https://www.linkedin.com/in/mpovedas/"><i class="fab fa-linkedin fa-3x mx-2"></i></a>
+                    <a class="text-white" target="_blank" href="https://twitter.com/Mattuc__/"><i class="fab fa-twitter-square fa-3x mx-2"></i></a>
+                    <a class="text-white" target="_blank" href="https://www.facebook.com/mattuc1/"><i class="fab fa-facebook-square fa-3x mx-2"></i></a>
                 </div>
             </div>
         </div>

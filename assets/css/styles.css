@@ -4,6 +4,11 @@ body {
     color: white;
 }
 
+/* Navbar */
 .navbar-brand img {
     width: 7%;
+}
+
+.navbar {
+    background-color: rgba(20, 20, 20, 0);
 }
